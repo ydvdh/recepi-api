@@ -11,3 +11,4 @@
 
 7. Running the test project:\recepi-api>docker-compose run --rm app sh -c "python manage.py test"
 8. Creating new core project: docker-compose run --rm app sh -c "python manage.py startapp core"
+9. Checking linting: docker-compose run --rm app sh -c "python manage.py wait_for_db && flake8"
