@@ -10,3 +10,4 @@
 6. Run the project: \recepi-api>docker-compose up
 
 7. Running the test project:\recepi-api>docker-compose run --rm app sh -c "python manage.py test"
+8. Creating new core project: docker-compose run --rm app sh -c "python manage.py startapp core"
